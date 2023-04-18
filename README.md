@@ -1,0 +1,2 @@
+# WorldFlags
+ A Terraria mod
