@@ -70,4 +70,4 @@ Costa Rica, Singapore, Paraguay, Nicaragua, Honduras, Andorra, European Union, V
 
 
 [h1]Code[/h1]
-This mod is [url=https://github.com/vakisddot/WorldCountryFlags]open-source[/url] under the GPL-3.0 license
+This mod is [url=https://github.com/vakisddot/WorldFlags]open-source[/url] under the GPL-3.0 license

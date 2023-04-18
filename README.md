@@ -1,2 +1,6 @@
+![icon](icon.png)
+
 # WorldFlags
- A Terraria mod
+ Mod for Terraria
+ 
+ [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2858293378)
