@@ -1,5 +1,6 @@
 ﻿using Microsoft.Xna.Framework;
 using Terraria;
+using Terraria.Localization;
 using Terraria.ModLoader;
 using Terraria.ID;
 using Terraria.DataStructures;
@@ -26,8 +27,8 @@ public class Globe : ModTile
 
         DustType = DustID.WoodFurniture;
 
-        ModTranslation name = CreateMapEntryName();
-        name.SetDefault("Globe");
+        LocalizedText name = CreateMapEntryName();
+        // name.SetDefault("Globe");
 
         AddMapEntry(new Color(200, 200, 200), name);
     }

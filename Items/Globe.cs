@@ -7,11 +7,6 @@ namespace WorldFlags.Items;
 public class Globe : ModItem
 {
     public override string Texture => WorldFlags.AssetPath + $"Textures/Items/Globe";
-    public override void SetStaticDefaults()
-    {
-        Tooltip.SetDefault("Used for crafting world flags");
-        DisplayName.SetDefault("Globe");
-    }
 
     public override void SetDefaults()
     {
