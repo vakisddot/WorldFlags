@@ -1,5 +1,6 @@
 ﻿using Microsoft.Xna.Framework;
 using Terraria;
+using Terraria.Localization;
 using Terraria.ModLoader;
 using Terraria.ID;
 using Terraria.DataStructures;
@@ -40,8 +41,7 @@ public class FlagTile : ModTile
 
         DustType = DustID.Iron;
 
-        ModTranslation name = CreateMapEntryName();
-        name.SetDefault("Country Flag");
+        LocalizedText name = CreateMapEntryName();
 
         AddMapEntry(new Color(200, 200, 200), name);
         AnimationFrameHeight = 72;

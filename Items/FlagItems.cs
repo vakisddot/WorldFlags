@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using Terraria.ModLoader;
+﻿using Terraria.ModLoader;
 
 namespace WorldFlags.Items;
 
@@ -7,14 +6,12 @@ public class USAItem : FlagItem
 {
     public override int ItemId => ModContent.ItemType<USAItem>();
     public override int TileId => 0;
-    public override string CountryName => "The United States";
 }
 
 public class UKItem : FlagItem
 {
     public override int ItemId => ModContent.ItemType<UKItem>();
     public override int TileId => 1;
-    public override string CountryName => "The United Kingdom";
 }
 
 public class ChinaItem : FlagItem
@@ -171,7 +168,6 @@ public class NewZealandItem : FlagItem
 {
     public override int ItemId => ModContent.ItemType<NewZealandItem>();
     public override int TileId => 27;
-    public override string CountryName => "New Zealand";
 }
 
 public class GreeceItem : FlagItem
@@ -214,7 +210,6 @@ public class DominicanRepublicItem : FlagItem
 {
     public override int ItemId => ModContent.ItemType<DominicanRepublicItem>();
     public override int TileId => 34;
-    public override string CountryName => "The Dominican Republic";
 }
 
 public class ArgentinaItem : FlagItem
@@ -353,14 +348,12 @@ public class PhilippinesItem : FlagItem
 {
     public override int ItemId => ModContent.ItemType<PhilippinesItem>();
     public override int TileId => 57;
-    public override string CountryName => "The Philippines";
 }
 
 public class SouthAfricaItem : FlagItem
 {
     public override int ItemId => ModContent.ItemType<SouthAfricaItem>();
     public override int TileId => 58;
-    public override string CountryName => "South Africa";
 }
 
 public class ThailandItem : FlagItem
@@ -373,15 +366,13 @@ public class EnglandItem : FlagItem
 {
     public override int ItemId => ModContent.ItemType<EnglandItem>();
     public override int TileId => 60;
-    public override string CountryName => base.CountryName + "(UK)";
-    public override FlagGroup FlagGroup => FlagGroup.British;  
+    public override FlagGroup FlagGroup => FlagGroup.British;
 }
 
 public class ScotlandItem : FlagItem
 {
     public override int ItemId => ModContent.ItemType<ScotlandItem>();
     public override int TileId => 61;
-    public override string CountryName => base.CountryName + "(UK)";
     public override FlagGroup FlagGroup => FlagGroup.British;
 }
 
@@ -389,7 +380,6 @@ public class WalesItem : FlagItem
 {
     public override int ItemId => ModContent.ItemType<WalesItem>();
     public override int TileId => 62;
-    public override string CountryName => base.CountryName + "(UK)";
     public override FlagGroup FlagGroup => FlagGroup.British;
 }
 
@@ -397,7 +387,6 @@ public class NorthernIrelandItem : FlagItem
 {
     public override int ItemId => ModContent.ItemType<NorthernIrelandItem>();
     public override int TileId => 63;
-    public override string CountryName => "Northern Ireland (UK)";
     public override FlagGroup FlagGroup => FlagGroup.British;
 }
 
@@ -417,7 +406,6 @@ public class SaudiArabiaItem : FlagItem
 {
     public override int ItemId => ModContent.ItemType<SaudiArabiaItem>();
     public override int TileId => 66;
-    public override string CountryName => "Saudi Arabia";
 }
 
 public class JamaicaItem : FlagItem
@@ -436,14 +424,12 @@ public class BosniaItem : FlagItem
 {
     public override int ItemId => ModContent.ItemType<BosniaItem>();
     public override int TileId => 69;
-    public override string CountryName => "Bosnia & Herzegovina";
 }
 
 public class UAEItem : FlagItem
 {
     public override int ItemId => ModContent.ItemType<UAEItem>();
     public override int TileId => 70;
-    public override string CountryName => "The United Arab Emirates";
 }
 
 public class BelarusItem : FlagItem
@@ -462,21 +448,18 @@ public class PuertoRicoItem : FlagItem
 {
     public override int ItemId => ModContent.ItemType<PuertoRicoItem>();
     public override int TileId => 73;
-    public override string CountryName => "Puerto Rico";
 }
 
 public class NorthKoreaItem : FlagItem
 {
     public override int ItemId => ModContent.ItemType<NorthKoreaItem>();
     public override int TileId => 74;
-    public override string CountryName => "North Korea";
 }
 
 public class SovietUnionItem : FlagItem
 {
     public override int ItemId => ModContent.ItemType<SovietUnionItem>();
     public override int TileId => 0;
-    public override string CountryName => "The Soviet Union";
     public override FlagType FlagType => FlagType.Historical;
 }
 
@@ -484,7 +467,6 @@ public class HolyRomanEmpireItem : FlagItem
 {
     public override int ItemId => ModContent.ItemType<HolyRomanEmpireItem>();
     public override int TileId => 1;
-    public override string CountryName => "The Holy Roman Empire";
     public override FlagType FlagType => FlagType.Historical;
 }
 
@@ -492,7 +474,6 @@ public class GermanEmpireItem : FlagItem
 {
     public override int ItemId => ModContent.ItemType<GermanEmpireItem>();
     public override int TileId => 2;
-    public override string CountryName => "The German Empire";
     public override FlagType FlagType => FlagType.Historical;
 }
 
@@ -554,7 +535,6 @@ public class IsleOfManItem : FlagItem
 {
     public override int ItemId => ModContent.ItemType<IsleOfManItem>();
     public override int TileId => 84;
-    public override string CountryName => "Isle of Man (UK)";
     public override FlagGroup FlagGroup => FlagGroup.British;
 }
 
@@ -580,7 +560,6 @@ public class NorthMacedoniaItem : FlagItem
 {
     public override int ItemId => ModContent.ItemType<NorthMacedoniaItem>();
     public override int TileId => 88;
-    public override string CountryName => "North Macedonia";
 }
 
 public class AzerbaijanItem : FlagItem
@@ -618,6 +597,5 @@ public class ByzantineEmpireItem : FlagItem
 {
     public override int ItemId => ModContent.ItemType<ByzantineEmpireItem>();
     public override int TileId => 3;
-    public override string CountryName => "The Byzantine Empire";
     public override FlagType FlagType => FlagType.Historical;
 }

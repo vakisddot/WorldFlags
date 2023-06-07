@@ -24,28 +24,11 @@ public abstract class FlagItem : ModItem
     public override string Texture => WorldFlags.AssetPath + $"Textures/Items/{GetType().Name}";
     public virtual FlagType FlagType => FlagType.Regular;
     public virtual FlagGroup FlagGroup => FlagGroup.None;
-
-    /// <summary>
-    /// By default, this will return the name of the type minus "Item"
-    /// </summary>
-    public virtual string CountryName
-    {
-        get
-        {
-            string removeString = "Item";
-            string fullName = GetType().Name;
-            int index = fullName.IndexOf(removeString);
-
-            return fullName.Remove(index, removeString.Length);
-        }
-    }
     public abstract int ItemId { get; }
     public abstract int TileId { get; }
 
     public override void SetStaticDefaults()
     {
-        DisplayName.SetDefault($"Flag of {CountryName}");
-
         switch (FlagType)
         {
             case FlagType.Historical:
@@ -55,11 +38,6 @@ public abstract class FlagItem : ModItem
             default:
                 WorldFlags.CountryID.Add(TileId, ItemId);
                 break;
-        }
-
-        if (this is UkraineItem)
-        {
-            Tooltip.SetDefault("Слава Україні!");
         }
     }
 

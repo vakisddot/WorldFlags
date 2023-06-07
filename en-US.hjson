@@ -1,0 +1,517 @@
+Mods: {
+	WorldFlags: {
+		Items: {
+			AlbaniaItem: {
+				DisplayName: Flag of Albania
+				Tooltip: ""
+			}
+
+			ArgentinaItem: {
+				DisplayName: Flag of Argentina
+				Tooltip: ""
+			}
+
+			ArmeniaItem: {
+				DisplayName: Flag of Armenia
+				Tooltip: ""
+			}
+
+			AustraliaItem: {
+				DisplayName: Flag of Australia
+				Tooltip: ""
+			}
+
+			AustriaItem: {
+				DisplayName: Flag of Austria
+				Tooltip: ""
+			}
+
+			AzerbaijanItem: {
+				DisplayName: Flag of Azerbaijan
+				Tooltip: ""
+			}
+
+			BahrainItem: {
+				DisplayName: Flag of Bahrain
+				Tooltip: ""
+			}
+
+			BangladeshItem: {
+				DisplayName: Flag of Bangladesh
+				Tooltip: ""
+			}
+
+			BelarusItem: {
+				DisplayName: Flag of Belarus
+				Tooltip: ""
+			}
+
+			BelgiumItem: {
+				DisplayName: Flag of Belgium
+				Tooltip: ""
+			}
+
+			BhutanItem: {
+				DisplayName: Flag of Bhutan
+				Tooltip: ""
+			}
+
+			BosniaItem: {
+				DisplayName: Flag of Bosnia & Herzegovina
+				Tooltip: ""
+			}
+
+			BrazilItem: {
+				DisplayName: Flag of Brazil
+				Tooltip: ""
+			}
+
+			BulgariaItem: {
+				DisplayName: Flag of Bulgaria
+				Tooltip: ""
+			}
+
+			ByzantineEmpireItem: {
+				DisplayName: Flag of The Byzantine Empire
+				Tooltip: ""
+			}
+
+			CanadaItem: {
+				DisplayName: Flag of Canada
+				Tooltip: ""
+			}
+
+			ChileItem: {
+				DisplayName: Flag of Chile
+				Tooltip: ""
+			}
+
+			ChinaItem: {
+				DisplayName: Flag of China
+				Tooltip: ""
+			}
+
+			ColombiaItem: {
+				DisplayName: Flag of Colombia
+				Tooltip: ""
+			}
+
+			CroatiaItem: {
+				DisplayName: Flag of Croatia
+				Tooltip: ""
+			}
+
+			CubaItem: {
+				DisplayName: Flag of Cuba
+				Tooltip: ""
+			}
+
+			CyprusItem: {
+				DisplayName: Flag of Cyprus
+				Tooltip: ""
+			}
+
+			CzechiaItem: {
+				DisplayName: Flag of Czechia
+				Tooltip: ""
+			}
+
+			DenmarkItem: {
+				DisplayName: Flag of Denmark
+				Tooltip: ""
+			}
+
+			DominicanRepublicItem: {
+				DisplayName: Flag of The Dominican Republic
+				Tooltip: ""
+			}
+
+			EcuadorItem: {
+				DisplayName: Flag of Ecuador
+				Tooltip: ""
+			}
+
+			EgyptItem: {
+				DisplayName: Flag of Egypt
+				Tooltip: ""
+			}
+
+			EnglandItem: {
+				DisplayName: Flag of England(UK)
+				Tooltip: ""
+			}
+
+			EstoniaItem: {
+				DisplayName: Flag of Estonia
+				Tooltip: ""
+			}
+
+			FinlandItem: {
+				DisplayName: Flag of Finland
+				Tooltip: ""
+			}
+
+			FranceItem: {
+				DisplayName: Flag of France
+				Tooltip: ""
+			}
+
+			GeorgiaItem: {
+				DisplayName: Flag of Georgia
+				Tooltip: ""
+			}
+
+			GermanEmpireItem: {
+				DisplayName: Flag of The German Empire
+				Tooltip: ""
+			}
+
+			GermanyItem: {
+				DisplayName: Flag of Germany
+				Tooltip: ""
+			}
+
+			Globe: {
+				DisplayName: Globe
+				Tooltip: Used for crafting world flags
+			}
+
+			GreeceItem: {
+				DisplayName: Flag of Greece
+				Tooltip: ""
+			}
+
+			HolyRomanEmpireItem: {
+				DisplayName: Flag of The Holy Roman Empire
+				Tooltip: ""
+			}
+
+			HungaryItem: {
+				DisplayName: Flag of Hungary
+				Tooltip: ""
+			}
+
+			IcelandItem: {
+				DisplayName: Flag of Iceland
+				Tooltip: ""
+			}
+
+			IndiaItem: {
+				DisplayName: Flag of India
+				Tooltip: ""
+			}
+
+			IndonesiaItem: {
+				DisplayName: Flag of Indonesia
+				Tooltip: ""
+			}
+
+			IraqItem: {
+				DisplayName: Flag of Iraq
+				Tooltip: ""
+			}
+
+			IrelandItem: {
+				DisplayName: Flag of Ireland
+				Tooltip: ""
+			}
+
+			IsleOfManItem: {
+				DisplayName: Flag of Isle of Man (UK)
+				Tooltip: ""
+			}
+
+			IsraelItem: {
+				DisplayName: Flag of Israel
+				Tooltip: ""
+			}
+
+			ItalyItem: {
+				DisplayName: Flag of Italy
+				Tooltip: ""
+			}
+
+			JamaicaItem: {
+				DisplayName: Flag of Jamaica
+				Tooltip: ""
+			}
+
+			JapanItem: {
+				DisplayName: Flag of Japan
+				Tooltip: ""
+			}
+
+			KazakhstanItem: {
+				DisplayName: Flag of Kazakhstan
+				Tooltip: ""
+			}
+
+			LatviaItem: {
+				DisplayName: Flag of Latvia
+				Tooltip: ""
+			}
+
+			LiechtensteinItem: {
+				DisplayName: Flag of Liechtenstein
+				Tooltip: ""
+			}
+
+			LithuaniaItem: {
+				DisplayName: Flag of Lithuania
+				Tooltip: ""
+			}
+
+			LuxembourgItem: {
+				DisplayName: Flag of Luxembourg
+				Tooltip: ""
+			}
+
+			MaltaItem: {
+				DisplayName: Flag of Malta
+				Tooltip: ""
+			}
+
+			MexicoItem: {
+				DisplayName: Flag of Mexico
+				Tooltip: ""
+			}
+
+			MoldovaItem: {
+				DisplayName: Flag of Moldova
+				Tooltip: ""
+			}
+
+			MontenegroItem: {
+				DisplayName: Flag of Montenegro
+				Tooltip: ""
+			}
+
+			NetherlandsItem: {
+				DisplayName: Flag of Netherlands
+				Tooltip: ""
+			}
+
+			NewZealandItem: {
+				DisplayName: Flag of New Zealand
+				Tooltip: ""
+			}
+
+			NigeriaItem: {
+				DisplayName: Flag of Nigeria
+				Tooltip: ""
+			}
+
+			NorthernIrelandItem: {
+				DisplayName: Flag of Northern Ireland (UK)
+				Tooltip: ""
+			}
+
+			NorthKoreaItem: {
+				DisplayName: Flag of North Korea
+				Tooltip: ""
+			}
+
+			NorthMacedoniaItem: {
+				DisplayName: Flag of North Macedonia
+				Tooltip: ""
+			}
+
+			NorwayItem: {
+				DisplayName: Flag of Norway
+				Tooltip: ""
+			}
+
+			OmanItem: {
+				DisplayName: Flag of Oman
+				Tooltip: ""
+			}
+
+			PalauItem: {
+				DisplayName: Flag of Palau
+				Tooltip: ""
+			}
+
+			PeruItem: {
+				DisplayName: Flag of Peru
+				Tooltip: ""
+			}
+
+			PhilippinesItem: {
+				DisplayName: Flag of The Philippines
+				Tooltip: ""
+			}
+
+			PolandItem: {
+				DisplayName: Flag of Poland
+				Tooltip: ""
+			}
+
+			PortugalItem: {
+				DisplayName: Flag of Portugal
+				Tooltip: ""
+			}
+
+			PuertoRicoItem: {
+				DisplayName: Flag of Puerto Rico
+				Tooltip: ""
+			}
+
+			QatarItem: {
+				DisplayName: Flag of Qatar
+				Tooltip: ""
+			}
+
+			QuebecItem: {
+				DisplayName: Flag of Quebec
+				Tooltip: ""
+			}
+
+			RomaniaItem: {
+				DisplayName: Flag of Romania
+				Tooltip: ""
+			}
+
+			RussiaItem: {
+				DisplayName: Flag of Russia
+				Tooltip: ""
+			}
+
+			SaudiArabiaItem: {
+				DisplayName: Flag of Saudi Arabia
+				Tooltip: ""
+			}
+
+			ScotlandItem: {
+				DisplayName: Flag of Scotland(UK)
+				Tooltip: ""
+			}
+
+			SerbiaItem: {
+				DisplayName: Flag of Serbia
+				Tooltip: ""
+			}
+
+			SlovakiaItem: {
+				DisplayName: Flag of Slovakia
+				Tooltip: ""
+			}
+
+			SloveniaItem: {
+				DisplayName: Flag of Slovenia
+				Tooltip: ""
+			}
+
+			SouthAfricaItem: {
+				DisplayName: Flag of South Africa
+				Tooltip: ""
+			}
+
+			SouthKoreaItem: {
+				DisplayName: Flag of SouthKorea
+				Tooltip: ""
+			}
+
+			SovietUnionItem: {
+				DisplayName: Flag of The Soviet Union
+				Tooltip: ""
+			}
+
+			SpainItem: {
+				DisplayName: Flag of Spain
+				Tooltip: ""
+			}
+
+			SwedenItem: {
+				DisplayName: Flag of Sweden
+				Tooltip: ""
+			}
+
+			SwitzerlandItem: {
+				DisplayName: Flag of Switzerland
+				Tooltip: ""
+			}
+
+			SyriaItem: {
+				DisplayName: Flag of Syria
+				Tooltip: ""
+			}
+
+			TaiwanItem: {
+				DisplayName: Flag of Taiwan
+				Tooltip: ""
+			}
+
+			ThailandItem: {
+				DisplayName: Flag of Thailand
+				Tooltip: ""
+			}
+
+			TurkeyItem: {
+				DisplayName: Flag of Turkey
+				Tooltip: ""
+			}
+
+			UAEItem: {
+				DisplayName: Flag of The United Arab Emirates
+				Tooltip: ""
+			}
+
+			UKItem: {
+				DisplayName: Flag of The United Kingdom
+				Tooltip: ""
+			}
+
+			UkraineItem: {
+				DisplayName: Flag of Ukraine
+				Tooltip: Слава Україні!
+			}
+
+			UruguayItem: {
+				DisplayName: Flag of Uruguay
+				Tooltip: ""
+			}
+
+			USAItem: {
+				DisplayName: Flag of The United States
+				Tooltip: ""
+			}
+
+			VenezuelaItem: {
+				DisplayName: Flag of Venezuela
+				Tooltip: ""
+			}
+
+			VietnamItem: {
+				DisplayName: Flag of Vietnam
+				Tooltip: ""
+			}
+
+			WalesItem: {
+				DisplayName: Flag of Wales(UK)
+				Tooltip: ""
+			}
+
+			YemenItem: {
+				DisplayName: Flag of Yemen
+				Tooltip: ""
+			}
+		}
+
+		Tiles: {
+			FlagTile.MapEntry: Country Flag
+			Globe.MapEntry: Globe
+			HistoricalTile.MapEntry: Country Flag
+		}
+
+		Configs: {
+			ServerConfig: {
+				DisplayName: Server Config
+
+				EasterEggsEnabled: {
+					Label: Enable Easter Eggs
+					Tooltip: ""
+				}
+			}
+		}
+	}
+}
