@@ -58,11 +58,11 @@ public abstract class FlagItem : ModItem
         switch (FlagType)
         {
             case FlagType.Historical:
-                Item.createTile = ModContent.TileType<Tiles.HistoricalTile>();
+                Item.DefaultToPlaceableTile(ModContent.TileType<Tiles.HistoricalTile>());
                 break;
 
             default:
-                Item.createTile = ModContent.TileType<Tiles.FlagTile>();
+                Item.DefaultToPlaceableTile(ModContent.TileType<Tiles.FlagTile>());
                 break;
         }
 

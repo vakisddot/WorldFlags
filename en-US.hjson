@@ -72,7 +72,7 @@ Mods: {
 			}
 
 			ByzantineEmpireItem: {
-				DisplayName: Flag of The Byzantine Empire
+				DisplayName: Flag of the Byzantine Empire
 				Tooltip: ""
 			}
 
@@ -122,7 +122,7 @@ Mods: {
 			}
 
 			DominicanRepublicItem: {
-				DisplayName: Flag of The Dominican Republic
+				DisplayName: Flag of the Dominican Republic
 				Tooltip: ""
 			}
 
@@ -137,7 +137,7 @@ Mods: {
 			}
 
 			EnglandItem: {
-				DisplayName: Flag of England(UK)
+				DisplayName: Flag of England (UK)
 				Tooltip: ""
 			}
 
@@ -162,7 +162,7 @@ Mods: {
 			}
 
 			GermanEmpireItem: {
-				DisplayName: Flag of The German Empire
+				DisplayName: Flag of the German Empire
 				Tooltip: ""
 			}
 
@@ -182,7 +182,7 @@ Mods: {
 			}
 
 			HolyRomanEmpireItem: {
-				DisplayName: Flag of The Holy Roman Empire
+				DisplayName: Flag of the Holy Roman Empire
 				Tooltip: ""
 			}
 
@@ -337,7 +337,7 @@ Mods: {
 			}
 
 			PhilippinesItem: {
-				DisplayName: Flag of The Philippines
+				DisplayName: Flag of the Philippines
 				Tooltip: ""
 			}
 
@@ -382,7 +382,7 @@ Mods: {
 			}
 
 			ScotlandItem: {
-				DisplayName: Flag of Scotland(UK)
+				DisplayName: Flag of Scotland (UK)
 				Tooltip: ""
 			}
 
@@ -407,12 +407,12 @@ Mods: {
 			}
 
 			SouthKoreaItem: {
-				DisplayName: Flag of SouthKorea
+				DisplayName: Flag of South Korea
 				Tooltip: ""
 			}
 
 			SovietUnionItem: {
-				DisplayName: Flag of The Soviet Union
+				DisplayName: Flag of the Soviet Union
 				Tooltip: ""
 			}
 
@@ -452,18 +452,18 @@ Mods: {
 			}
 
 			UAEItem: {
-				DisplayName: Flag of The United Arab Emirates
+				DisplayName: Flag of the United Arab Emirates
 				Tooltip: ""
 			}
 
 			UKItem: {
-				DisplayName: Flag of The United Kingdom
+				DisplayName: Flag of the United Kingdom
 				Tooltip: ""
 			}
 
 			UkraineItem: {
 				DisplayName: Flag of Ukraine
-				Tooltip: Слава Україні!
+				Tooltip: ""
 			}
 
 			UruguayItem: {
@@ -472,7 +472,7 @@ Mods: {
 			}
 
 			USAItem: {
-				DisplayName: Flag of The United States
+				DisplayName: Flag of the United States
 				Tooltip: ""
 			}
 
@@ -487,7 +487,7 @@ Mods: {
 			}
 
 			WalesItem: {
-				DisplayName: Flag of Wales(UK)
+				DisplayName: Flag of Wales (UK)
 				Tooltip: ""
 			}
 

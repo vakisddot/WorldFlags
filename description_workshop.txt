@@ -28,6 +28,9 @@ Soviet Union, Holy Roman Empire, German Empire, Byzantine Empire
 
 
 [h1]Changelog[/h1]
+v1.1.4.2
+- Fixed glitch where flags would drop their item twice
+- Bugfixes
 v1.1.4.1
 - De-spaghettified code
 v1.1.4
