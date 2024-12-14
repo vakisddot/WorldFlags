@@ -1,5 +1,6 @@
 ﻿using Microsoft.Xna.Framework;
 using Terraria;
+using Terraria.Localization;
 using Terraria.ModLoader;
 using Terraria.ID;
 using Terraria.DataStructures;
@@ -14,6 +15,7 @@ public class FlagTile : ModTile
 {
     public override string Texture => WorldFlags.AssetPath + $"Textures/Tiles/FlagTile";
     protected virtual Dictionary<int, int> IdDictionary => WorldFlags.CountryID;
+
     public override void SetStaticDefaults()
     {
         Main.tileFrameImportant[Type] = true;
@@ -24,28 +26,28 @@ public class FlagTile : ModTile
         TileID.Sets.DisableSmartCursor[Type] = true;
 
         TileObjectData.newTile.CopyFrom(TileObjectData.Style3x4);
-        TileObjectData.newTile.StyleHorizontal = true;
-
         TileObjectData.newTile.Direction = TileObjectDirection.PlaceLeft;
         TileObjectData.newTile.Origin = new Point16(1, 3);
         TileObjectData.newTile.AnchorBottom = new AnchorData(AnchorType.SolidWithTop | AnchorType.SolidTile, 1, 2);
 
-        TileObjectData.newAlternate.CopyFrom(TileObjectData.newTile);
+        TileObjectData.newTile.StyleHorizontal = true;
 
+        TileObjectData.newAlternate.CopyFrom(TileObjectData.newTile);
         TileObjectData.newAlternate.Direction = TileObjectDirection.PlaceRight;
         TileObjectData.newAlternate.AnchorBottom = new AnchorData(AnchorType.SolidWithTop | AnchorType.SolidTile, 1, 0);
 
         TileObjectData.addAlternate(1);
         TileObjectData.addTile(Type);
 
-        DustType = DustID.Iron;
+        DustType = DustID.Rope;
 
-        ModTranslation name = CreateMapEntryName();
-        name.SetDefault("Country Flag");
+        LocalizedText name = CreateMapEntryName();
 
         AddMapEntry(new Color(200, 200, 200), name);
         AnimationFrameHeight = 72;
     }
+
+    public override bool CanDrop(int i, int j) => false;
 
     public override void KillMultiTile(int i, int j, int frameX, int frameY)
     {
