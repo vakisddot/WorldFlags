@@ -8,6 +8,7 @@ using Terraria.ObjectData;
 using Terraria.Enums;
 using System;
 using System.Collections.Generic;
+using static Terraria.ModLoader.ModContent;
 
 namespace WorldFlags.Tiles;
 
@@ -54,18 +55,56 @@ public class FlagTile : ModTile
         int tileId = frameX / 108;
 
         // Ayy lmoa
-        if (WorldFlags.ServerConfig.EasterEggsEnabled && tileId == 88)
+        if (WorldFlags.ServerConfig.EasterEggsEnabled)
         {
-            int n = Main.rand.Next();
+            int n;
 
-            if (n % 20 == 0)
+            switch (tileId)
             {
-                int[] ids = new[] { 77, 49, 28 };
-                tileId = ids[Main.rand.Next(0, 3)];
-            }
-            else if (n % 10 == 0)
-            {
-                tileId = 9;
+                case 12:
+                    n = Main.rand.Next();
+
+                    if (n % 5 == 0)
+                    {
+                        NPC.NewNPC(new EntitySource_TileUpdate(i, j), i * 16, j * 16, NPCType<NPCs.Cockroach>());
+                    }
+
+                    break;
+                case 52:
+                    n = Main.rand.Next();
+                    int quantity = Main.rand.Next(1, 4);
+
+                    int coinId = n % 25 == 0 ? ItemID.SilverCoin : n % 15 == 0 ? ItemID.CopperCoin : -1;
+
+                    if (coinId != -1)
+                    {
+                        Item.NewItem(new EntitySource_TileBreak(i, j), new Vector2(i * 16, j * 16), new Vector2(48, 48), coinId, quantity);
+                    }
+                    break;
+                case 74:
+                    n = Main.rand.Next();
+                    float velX = (float)Main.rand.Next(-100, 101) / 100;
+
+                    if (n % 4 == 0)
+                    {
+                        Projectile.NewProjectile(new EntitySource_TileUpdate(i, j), new Vector2(i * 16, j * 16), new Vector2(velX, -1), ProjectileID.RocketI, 5, 1);
+                    }
+                    break;
+                case 88:
+                    n = Main.rand.Next();
+
+                    if (n % 20 == 0)
+                    {
+                        int[] ids = new[] { 77, 49, 28 };
+                        tileId = ids[Main.rand.Next(0, 3)];
+                    }
+                    else if (n % 10 == 0)
+                    {
+                        tileId = 9;
+                    }
+
+                    break;
+
             }
         }
 

@@ -14,14 +14,14 @@ public class Globe : ModItem
         Item.maxStack = 99;
         Item.width = 32;
         Item.height = 32;
-        Item.value = 3600;
+        Item.value = 35;
         Item.consumable = true;
         Item.useTurn = true;
         Item.autoReuse = true;
         Item.useAnimation = 15;
         Item.useTime = 10;
         Item.rare = ItemRarityID.White;
-        Item.createTile = ModContent.TileType<Tiles.Globe>();
+        Item.DefaultToPlaceableTile(ModContent.TileType<Tiles.Globe>());
     }
 
     public override void AddRecipes()

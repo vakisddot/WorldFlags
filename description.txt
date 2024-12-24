@@ -1,3 +1,3 @@
 Add your country's flag to your Terraria world using World Country Flags!
-Adds 94 new placeable flags, most of which are craftable with 10 silk at a new crafting station - the Globe (crafted at a Sawmill using 12 wood and 4 iron/lead bars).
-Also adds 4 historical flags that are craftable with 10 silk and 1 gem.
+Adds 129 new placeable flags, most of which are craftable with 10 silk at a new crafting station - the Globe (crafted at a Sawmill using 12 wood and 4 iron/lead bars).
+Also adds 5 historical flags that are craftable with 10 silk and 1 gem.

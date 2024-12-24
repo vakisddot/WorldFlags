@@ -24,12 +24,14 @@ public class FranceItem : FlagItem
 {
     public override int ItemId => ModContent.ItemType<FranceItem>();
     public override int TileId => 3;
+    public override FlagGroup FlagGroup => FlagGroup.EU;
 }
 
 public class GermanyItem : FlagItem
 {
     public override int ItemId => ModContent.ItemType<GermanyItem>();
     public override int TileId => 4;
+    public override FlagGroup FlagGroup => FlagGroup.EU;
 }
 
 public class UkraineItem : FlagItem
@@ -42,6 +44,7 @@ public class PolandItem : FlagItem
 {
     public override int ItemId => ModContent.ItemType<PolandItem>();
     public override int TileId => 6;
+    public override FlagGroup FlagGroup => FlagGroup.EU;
 }
 
 public class RussiaItem : FlagItem
@@ -54,24 +57,28 @@ public class RomaniaItem : FlagItem
 {
     public override int ItemId => ModContent.ItemType<RomaniaItem>();
     public override int TileId => 8;
+    public override FlagGroup FlagGroup => FlagGroup.EU;
 }
 
 public class BulgariaItem : FlagItem
 {
     public override int ItemId => ModContent.ItemType<BulgariaItem>();
     public override int TileId => 9;
+    public override FlagGroup FlagGroup => FlagGroup.EU;
 }
 
 public class BelgiumItem : FlagItem
 {
     public override int ItemId => ModContent.ItemType<BelgiumItem>();
     public override int TileId => 10;
+    public override FlagGroup FlagGroup => FlagGroup.EU;
 }
 
 public class FinlandItem : FlagItem
 {
     public override int ItemId => ModContent.ItemType<FinlandItem>();
     public override int TileId => 11;
+    public override FlagGroup FlagGroup => FlagGroup.EU;
 }
 
 public class TurkeyItem : FlagItem
@@ -84,6 +91,7 @@ public class ItalyItem : FlagItem
 {
     public override int ItemId => ModContent.ItemType<ItalyItem>();
     public override int TileId => 13;
+    public override FlagGroup FlagGroup => FlagGroup.EU;
 }
 
 public class AustraliaItem : FlagItem
@@ -96,6 +104,7 @@ public class SwedenItem : FlagItem
 {
     public override int ItemId => ModContent.ItemType<SwedenItem>();
     public override int TileId => 15;
+    public override FlagGroup FlagGroup => FlagGroup.EU;
 }
 
 public class CanadaItem : FlagItem
@@ -108,36 +117,42 @@ public class DenmarkItem : FlagItem
 {
     public override int ItemId => ModContent.ItemType<DenmarkItem>();
     public override int TileId => 17;
+    public override FlagGroup FlagGroup => FlagGroup.EU;
 }
 
 public class HungaryItem : FlagItem
 {
     public override int ItemId => ModContent.ItemType<HungaryItem>();
     public override int TileId => 18;
+    public override FlagGroup FlagGroup => FlagGroup.EU;
 }
 
 public class AustriaItem : FlagItem
 {
     public override int ItemId => ModContent.ItemType<AustriaItem>();
     public override int TileId => 19;
+    public override FlagGroup FlagGroup => FlagGroup.EU;
 }
 
 public class EstoniaItem : FlagItem
 {
     public override int ItemId => ModContent.ItemType<EstoniaItem>();
     public override int TileId => 20;
+    public override FlagGroup FlagGroup => FlagGroup.EU;
 }
 
 public class LatviaItem : FlagItem
 {
     public override int ItemId => ModContent.ItemType<LatviaItem>();
     public override int TileId => 21;
+    public override FlagGroup FlagGroup => FlagGroup.EU;
 }
 
 public class LithuaniaItem : FlagItem
 {
     public override int ItemId => ModContent.ItemType<LithuaniaItem>();
     public override int TileId => 22;
+    public override FlagGroup FlagGroup => FlagGroup.EU;
 }
 
 public class VenezuelaItem : FlagItem
@@ -156,12 +171,14 @@ public class IrelandItem : FlagItem
 {
     public override int ItemId => ModContent.ItemType<IrelandItem>();
     public override int TileId => 25;
+    public override FlagGroup FlagGroup => FlagGroup.EU;
 }
 
 public class NetherlandsItem : FlagItem
 {
     public override int ItemId => ModContent.ItemType<NetherlandsItem>();
     public override int TileId => 26;
+    public override FlagGroup FlagGroup => FlagGroup.EU;
 }
 
 public class NewZealandItem : FlagItem
@@ -174,12 +191,14 @@ public class GreeceItem : FlagItem
 {
     public override int ItemId => ModContent.ItemType<GreeceItem>();
     public override int TileId => 28;
+    public override FlagGroup FlagGroup => FlagGroup.EU;
 }
 
 public class LuxembourgItem : FlagItem
 {
     public override int ItemId => ModContent.ItemType<LuxembourgItem>();
     public override int TileId => 29;
+    public override FlagGroup FlagGroup => FlagGroup.EU;
 }
 
 public class SwitzerlandItem : FlagItem
@@ -228,12 +247,14 @@ public class SpainItem : FlagItem
 {
     public override int ItemId => ModContent.ItemType<SpainItem>();
     public override int TileId => 37;
+    public override FlagGroup FlagGroup => FlagGroup.EU;
 }
 
 public class PortugalItem : FlagItem
 {
     public override int ItemId => ModContent.ItemType<PortugalItem>();
     public override int TileId => 38;
+    public override FlagGroup FlagGroup => FlagGroup.EU;
 }
 
 public class ChileItem : FlagItem
@@ -252,12 +273,14 @@ public class SloveniaItem : FlagItem
 {
     public override int ItemId => ModContent.ItemType<SloveniaItem>();
     public override int TileId => 41;
+    public override FlagGroup FlagGroup => FlagGroup.EU;
 }
 
 public class SlovakiaItem : FlagItem
 {
     public override int ItemId => ModContent.ItemType<SlovakiaItem>();
     public override int TileId => 42;
+    public override FlagGroup FlagGroup => FlagGroup.EU;
 }
 
 public class PeruItem : FlagItem
@@ -288,12 +311,14 @@ public class CzechiaItem : FlagItem
 {
     public override int ItemId => ModContent.ItemType<CzechiaItem>();
     public override int TileId => 47;
+    public override FlagGroup FlagGroup => FlagGroup.EU;
 }
 
 public class CroatiaItem : FlagItem
 {
     public override int ItemId => ModContent.ItemType<CroatiaItem>();
     public override int TileId => 48;
+    public override FlagGroup FlagGroup => FlagGroup.EU;
 }
 
 public class AlbaniaItem : FlagItem
@@ -481,6 +506,7 @@ public class MaltaItem : FlagItem
 {
     public override int ItemId => ModContent.ItemType<MaltaItem>();
     public override int TileId => 75;
+    public override FlagGroup FlagGroup => FlagGroup.EU;
 }
 
 public class IraqItem : FlagItem
@@ -529,6 +555,7 @@ public class CyprusItem : FlagItem
 {
     public override int ItemId => ModContent.ItemType<CyprusItem>();
     public override int TileId => 83;
+    public override FlagGroup FlagGroup => FlagGroup.EU;
 }
 
 public class IsleOfManItem : FlagItem
@@ -597,5 +624,261 @@ public class ByzantineEmpireItem : FlagItem
 {
     public override int ItemId => ModContent.ItemType<ByzantineEmpireItem>();
     public override int TileId => 3;
+    public override FlagType FlagType => FlagType.Historical;
+}
+
+public class AfghanistanItem : FlagItem
+{
+    public override int ItemId => ModContent.ItemType<AfghanistanItem>();
+    public override int TileId => 94;
+}
+
+public class AlgeriaItem : FlagItem
+{
+    public override int ItemId => ModContent.ItemType<AlgeriaItem>();
+    public override int TileId => 95;
+}
+
+public class BahamasItem : FlagItem
+{
+    public override int ItemId => ModContent.ItemType<BahamasItem>();
+    public override int TileId => 96;
+}
+public class BoliviaItem : FlagItem
+{
+    public override int ItemId => ModContent.ItemType<BoliviaItem>();
+    public override int TileId => 97;
+}
+
+public class CostaRicaItem : FlagItem
+{
+    public override int ItemId => ModContent.ItemType<CostaRicaItem>();
+    public override int TileId => 98;
+}
+
+public class ElSalvadorItem : FlagItem
+{
+    public override int ItemId => ModContent.ItemType<ElSalvadorItem>();
+    public override int TileId => 99;
+}
+
+public class EUItem : FlagItem
+{
+    public override int ItemId => ModContent.ItemType<EUItem>();
+    public override int TileId => 100;
+}
+
+public class IranItem : FlagItem
+{
+    public override int ItemId => ModContent.ItemType<IranItem>();
+    public override int TileId => 101;
+}
+
+public class JordanItem : FlagItem
+{
+    public override int ItemId => ModContent.ItemType<JordanItem>();
+    public override int TileId => 102;
+}
+
+public class KosovoItem : FlagItem
+{
+    public override int ItemId => ModContent.ItemType<KosovoItem>();
+    public override int TileId => 103;
+}
+
+public class LibyaItem : FlagItem
+{
+    public override int ItemId => ModContent.ItemType<LibyaItem>();
+    public override int TileId => 104;
+}
+
+public class NepalItem : FlagItem
+{
+    public override int ItemId => ModContent.ItemType<NepalItem>();
+    public override int TileId => 105;
+}
+
+public class NicaraguaItem : FlagItem
+{
+    public override int ItemId => ModContent.ItemType<NicaraguaItem>();
+    public override int TileId => 106;
+}
+public class PakistanItem : FlagItem
+{
+    public override int ItemId => ModContent.ItemType<PakistanItem>();
+    public override int TileId => 107;
+}
+
+public class PalestineItem : FlagItem
+{
+    public override int ItemId => ModContent.ItemType<PalestineItem>();
+    public override int TileId => 108;
+}
+
+public class SanMarinoItem : FlagItem
+{
+    public override int ItemId => ModContent.ItemType<SanMarinoItem>();
+    public override int TileId => 109;
+}
+
+public class SingaporeItem : FlagItem
+{
+    public override int ItemId => ModContent.ItemType<SingaporeItem>();
+    public override int TileId => 110;
+}
+
+public class SomaliaItem : FlagItem
+{
+    public override int ItemId => ModContent.ItemType<SomaliaItem>();
+    public override int TileId => 111;
+}
+
+public class SyriaLegacyItem : FlagItem
+{
+    public override int ItemId => ModContent.ItemType<SyriaLegacyItem>();
+    public override int TileId => 4;
+    public override FlagType FlagType => FlagType.Historical;
+}
+
+public class TunisiaItem : FlagItem
+{
+    public override int ItemId => ModContent.ItemType<TunisiaItem>();
+    public override int TileId => 112;
+}
+
+public class VaticanCityItem : FlagItem
+{
+    public override int ItemId => ModContent.ItemType<VaticanCityItem>();
+    public override int TileId => 113;
+}
+
+public class AndorraItem : FlagItem
+{
+    public override int ItemId => ModContent.ItemType<AndorraItem>();
+    public override int TileId => 114;
+}
+
+public class EthiopiaItem : FlagItem
+{
+    public override int ItemId => ModContent.ItemType<EthiopiaItem>();
+    public override int TileId => 115;
+}
+
+public class GreenlandItem : FlagItem
+{
+    public override int ItemId => ModContent.ItemType<GreenlandItem>();
+    public override int TileId => 116;
+}
+
+public class HondurasItem : FlagItem
+{
+    public override int ItemId => ModContent.ItemType<HondurasItem>();
+    public override int TileId => 117;
+}
+
+public class HongKongItem : FlagItem
+{
+    public override int ItemId => ModContent.ItemType<HongKongItem>();
+    public override int TileId => 118;
+}
+
+public class KuwaitItem : FlagItem
+{
+    public override int ItemId => ModContent.ItemType<KuwaitItem>();
+    public override int TileId => 119;
+}
+
+public class KyrgyzstanItem : FlagItem
+{
+    public override int ItemId => ModContent.ItemType<KyrgyzstanItem>();
+    public override int TileId => 120;
+}
+
+public class LebanonItem : FlagItem
+{
+    public override int ItemId => ModContent.ItemType<LebanonItem>();
+    public override int TileId => 121;
+}
+
+public class MadagascarItem : FlagItem
+{
+    public override int ItemId => ModContent.ItemType<MadagascarItem>();
+    public override int TileId => 122;
+}
+
+public class MalaysiaItem : FlagItem
+{
+    public override int ItemId => ModContent.ItemType<MalaysiaItem>();
+    public override int TileId => 123;
+}
+
+public class MongoliaItem : FlagItem
+{
+    public override int ItemId => ModContent.ItemType<MongoliaItem>();
+    public override int TileId => 124;
+}
+
+public class MoroccoItem : FlagItem
+{
+    public override int ItemId => ModContent.ItemType<MoroccoItem>();
+    public override int TileId => 125;
+}
+
+public class MyanmarItem : FlagItem
+{
+    public override int ItemId => ModContent.ItemType<MyanmarItem>();
+    public override int TileId => 126;
+}
+
+public class ParaguayItem : FlagItem
+{
+    public override int ItemId => ModContent.ItemType<ParaguayItem>();
+    public override int TileId => 127;
+}
+
+public class SeychellesItem : FlagItem
+{
+    public override int ItemId => ModContent.ItemType<SeychellesItem>();
+    public override int TileId => 128;
+}
+
+public class AustriaHungaryItem : FlagItem
+{
+    public override int ItemId => ModContent.ItemType<AustriaHungaryItem>();
+    public override int TileId => 5;
+    public override FlagType FlagType => FlagType.Historical;
+}
+
+public class HabsburgMonarchyItem : FlagItem
+{
+    public override int ItemId => ModContent.ItemType<HabsburgMonarchyItem>();
+    public override int TileId => 6;
+    public override FlagType FlagType => FlagType.Historical;
+}
+
+public class MongolEmpireItem : FlagItem
+{
+    public override int ItemId => ModContent.ItemType<MongolEmpireItem>();
+    public override int TileId => 7;
+    public override FlagType FlagType => FlagType.Historical;
+}
+
+public class PrussiaItem : FlagItem
+{
+    public override int ItemId => ModContent.ItemType<PrussiaItem>();
+    public override int TileId => 8;
+    public override FlagType FlagType => FlagType.Historical;
+}
+
+public class QingDynastyItem : FlagItem
+{
+    public override int ItemId => ModContent.ItemType<QingDynastyItem>();
+    public override int TileId => 9;
+    public override FlagType FlagType => FlagType.Historical;
+}
+public class RussianEmpireItem : FlagItem
+{
+    public override int ItemId => ModContent.ItemType<RussianEmpireItem>();
+    public override int TileId => 10;
     public override FlagType FlagType => FlagType.Historical;
 }

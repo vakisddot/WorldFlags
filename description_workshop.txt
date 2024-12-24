@@ -1,33 +1,44 @@
 Also make sure to check out [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2960675504]GIFs in Chat[/url]
 
-Now available for 1.4.4!
-
 Add your country's flag to your Terraria world using World Country Flags!
-Adds 94 new placeable flags, most of which are craftable with 10 silk at a new crafting station - the Globe (crafted at a Sawmill using 12 wood and 4 iron/lead bars).
-Also adds 4 historical flags that are craftable with 10 silk and 1 gem.
+Adds 129 new placeable flags, most of which are craftable with 10 silk at a new crafting station - the Globe (crafted at a Sawmill using 12 wood and 4 iron/lead bars).
+Also adds 11 historical flags that are craftable with 10 silk and 1 gem.
 
 
 [h1]Currently Available[/h1]
 [h2]Americas[/h2] 
-United States (+Puerto Rico), Canada (+Quebec), Mexico, Venezuela, The Dominican Republic, Chile, Argentina, Brazil, Peru, Jamaica, Colombia, Ecuador, Cuba, Uruguay
+United States (+Puerto Rico), Canada (+Quebec), Mexico, Venezuela, The Dominican Republic, Chile, Argentina, Brazil, Peru, Jamaica, Colombia, Ecuador, Cuba, Uruguay, Costa Rica, Bolivia, Nicaragua, El Salvador, Bahamas, Honduras, Paraguay, Greenland
 
 [h2]Europe[/h2] 
-United Kingdom (+England, Scotland, N.Ireland, Isle of Man), Poland, Russia, Germany, France, Ukraine, Belgium, Romania, Sweden, Bulgaria, Denmark, Finland, Italy, Hungary, Austria, Estonia, Lithuania, Latvia, Ireland, Luxembourg, The Netherlands, Greece, Moldova, Switzerland, Spain, Portugal, Croatia, Czechia, Albania, Slovakia, Slovenia, Norway, Iceland, Liechtenstein, Armenia, Belarus, Bosnia & Herzegovina, Georgia, Malta, Cyrpus, Serbia, North Macedonia
+EU, UK (+England, Scotland, N.Ireland, Isle of Man), Poland, Russia, Germany, France, Ukraine, Belgium, Sweden, Denmark, Finland, Italy, Hungary, Austria, Estonia, Lithuania, Latvia, Ireland, Luxembourg, The Netherlands, Switzerland, Spain, Portugal, Czechia, Slovakia, Norway, Iceland, Liechtenstein, Armenia, Belarus, Georgia, Malta, Cyrpus, Vatican, San Marino, Andorra
+
+[h2]Balkans[/h2]
+Romania, Bulgaria, Greece, Moldova, Croatia, Albania, Slovenia, Bosnia & Herzegovina, Serbia, North Macedonia, Kosovo
 
 [h2]Asia[/h2] 
-China, Turkey, Indonesia, India, Japan, South Korea, Vietnam, Kazakhstan, Israel, The Philippines, Thailand, Bangladesh, Saudi Arabia, United Arab Emirates, North Korea, Iraq, Taiwan, Yemen, Azerbaijan, Bahrain, Qatar, Oman, Syria, Bhutan
+China, Turkey, Indonesia, India, Japan, South Korea, Vietnam, Kazakhstan, The Philippines, Thailand, Bangladesh, North Korea, Taiwan, Azerbaijan, Bhutan, Iran, Nepal, Singapore, Pakistan, Afghanistan, Hong Kong, Malaysia, Kyrgyzstan, Myanmar, Mongolia
+
+[h2]Middle East[/h2]
+Israel, Saudi Arabia, United Arab Emirates, Iraq, Yemen, Bahrain, Qatar, Oman, Syria, Palestine, Jordan, Kuwait, Lebanon
+
+[h2]Africa[/h2] 
+South Africa, Egypt, Nigeria, Algeria, Libya, Tunisia, Somalia, Madagascar, Seychelles, Ethiopia, Morocco
 
 [h2]Oceania[/h2] 
 Australia, New Zealand, Palau
 
-[h2]Africa[/h2] 
-South Africa, Egypt, Nigeria
+[h2]Historical[/h2]
+Soviet Union, Holy Roman Empire, German Empire, Byzantine Empire, Syria (pre-fall of Assad), Mongol Empire, Austro-Hungary, Qing Dynasty, Russian Empire, the Habsburg Monarchy, Prussia
 
-[h2]Historical[/h2] 
-Soviet Union, Holy Roman Empire, German Empire, Byzantine Empire
-
+[img]https://i.imgur.com/ADL6lMq.png[/img]
 
 [h1]Changelog[/h1]
+v1.2
+- Added the flag of the European Union
+- Updated the flag of Syria (legacy flag can still be crafted)
+- Added the flags of Costa Rica, Algeria, Libya, Iran, Tunisia, Nepal, Palestie, Vatican, San Marino, Bolivia, Singapore, Jordan, Pakistan, Nicaragua, El Salvador, Kosovo, Somalia, Afghanistan, Bahamas, Madagascar, Kuwait, Honduras, Andorra, Hong Kong, Malaysia, Paraguay, Seychelles, Kyrgyzstan, Myanmar, Ethiopia, Morocco, Mongolia, Lebanon, Greenland
+- Added the historical flags of the Mongol Empire, Austro-Hungary, Qing Dynasty, Russian Empire, the Habsburg Monarchy & Prussia
+- Bugfixes
 v1.1.4.3
 - Fixed glitch where flags would drop their item twice
 - Bugfixes

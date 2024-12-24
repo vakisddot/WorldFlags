@@ -16,11 +16,12 @@ public enum FlagGroup
     British,
     American,
     Canadian,
+    EU,
 }
 
 public abstract class FlagItem : ModItem
 {
-    private const int FlagValue = 5000;
+    private const int FlagValue = 500;
     public override string Texture => WorldFlags.AssetPath + $"Textures/Items/{GetType().Name}";
     public virtual FlagType FlagType => FlagType.Regular;
     public virtual FlagGroup FlagGroup => FlagGroup.None;
@@ -97,5 +98,30 @@ public abstract class FlagItem : ModItem
 
         recipe.AddTile(ModContent.TileType<Tiles.Globe>());
         recipe.Register();
+
+        // The UK & EU flags can also create any of the UK/EU flags
+        if (ItemId == ModContent.ItemType<UKItem>())
+        {
+            recipe = Recipe.Create(ItemId);
+            recipe.AddRecipeGroup(Lang.GetItemNameValue(ModContent.ItemType<UKItem>()), 1);
+            recipe.AddTile(ModContent.TileType<Tiles.Globe>());
+            recipe.Register();
+        } 
+        else if (ItemId == ModContent.ItemType<EUItem>())
+        {
+            recipe = Recipe.Create(ItemId);
+            recipe.AddRecipeGroup(Lang.GetItemNameValue(ModContent.ItemType<EUItem>()), 1);
+            recipe.AddTile(ModContent.TileType<Tiles.Globe>());
+            recipe.Register();
+        }
+
+        // EU country flags can also be crafted with EU flags
+        if (FlagGroup == FlagGroup.EU)
+        {
+            recipe = Recipe.Create(ItemId);
+            recipe.AddIngredient(ModContent.ItemType<EUItem>());
+            recipe.AddTile(ModContent.TileType<Tiles.Globe>());
+            recipe.Register();
+        }
     }
 }

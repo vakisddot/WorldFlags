@@ -495,6 +495,226 @@ Mods: {
 				DisplayName: Flag of Yemen
 				Tooltip: ""
 			}
+
+			AfghanistanItem: {
+				DisplayName: Flag of Afghanistan
+				Tooltip: ""
+			}
+
+			AlgeriaItem: {
+				DisplayName: Flag of Algeria
+				Tooltip: ""
+			}
+
+			BahamasItem: {
+				DisplayName: Flag of the Bahamas
+				Tooltip: ""
+			}
+
+			BoliviaItem: {
+				DisplayName: Flag of Bolivia
+				Tooltip: ""
+			}
+
+			CostaRicaItem: {
+				DisplayName: Flag of Costa Rica
+				Tooltip: ""
+			}
+
+			ElSalvadorItem: {
+				DisplayName: Flag of El Salvador
+				Tooltip: ""
+			}
+
+			EUItem: {
+				DisplayName: Flag of the European Union
+				Tooltip: ""
+			}
+
+			IranItem: {
+				DisplayName: Flag of Iran
+				Tooltip: ""
+			}
+
+			JordanItem: {
+				DisplayName: Flag of Jordan
+				Tooltip: ""
+			}
+
+			KosovoItem: {
+				DisplayName: Flag of Kosovo
+				Tooltip: ""
+			}
+
+			LibyaItem: {
+				DisplayName: Flag of Libya
+				Tooltip: ""
+			}
+
+			NepalItem: {
+				DisplayName: Flag of Nepal
+				Tooltip: ""
+			}
+
+			NicaraguaItem: {
+				DisplayName: Flag of Nicaragua
+				Tooltip: ""
+			}
+
+			PakistanItem: {
+				DisplayName: Flag of Pakistan
+				Tooltip: ""
+			}
+
+			PalestineItem: {
+				DisplayName: Flag of Palestine
+				Tooltip: ""
+			}
+
+			SanMarinoItem: {
+				DisplayName: Flag of San Marino
+				Tooltip: ""
+			}
+
+			SingaporeItem: {
+				DisplayName: Flag of Singapore
+				Tooltip: ""
+			}
+
+			SomaliaItem: {
+				DisplayName: Flag of Somalia
+				Tooltip: ""
+			}
+
+			SyriaLegacyItem: {
+				DisplayName: Historical Flag of Syria
+				Tooltip: ""
+			}
+
+			TunisiaItem: {
+				DisplayName: Flag of Tunisia
+				Tooltip: ""
+			}
+
+			VaticanCityItem: {
+				DisplayName: Flag of Vatican City
+				Tooltip: ""
+			}
+
+			MadagascarItem: {
+				DisplayName: Flag of Madagascar
+				Tooltip: ""
+			}
+
+			KuwaitItem: {
+				DisplayName: Flag of Kuwait
+				Tooltip: ""
+			}
+
+			HondurasItem: {
+				DisplayName: Flag of Honduras
+				Tooltip: ""
+			}
+
+			AndorraItem: {
+				DisplayName: Flag of Andorra
+				Tooltip: ""
+			}
+
+			HongKongItem: {
+				DisplayName: Flag of Hong Kong
+				Tooltip: ""
+			}
+
+			MalaysiaItem: {
+				DisplayName: Flag of Malaysia
+				Tooltip: ""
+			}
+
+			ParaguayItem: {
+				DisplayName: Flag of Paraguay
+				Tooltip: ""
+			}
+
+			SeychellesItem: {
+				DisplayName: Flag of Seychelles
+				Tooltip: ""
+			}
+
+			KyrgyzstanItem: {
+				DisplayName: Flag of Kyrgyzstan
+				Tooltip: ""
+			}
+
+			MyanmarItem: {
+				DisplayName: Flag of Myanmar
+				Tooltip: ""
+			}
+
+			EthiopiaItem: {
+				DisplayName: Flag of Ethiopia
+				Tooltip: ""
+			}
+
+			MoroccoItem: {
+				DisplayName: Flag of Morocco
+				Tooltip: ""
+			}
+
+			MongoliaItem: {
+				DisplayName: Flag of Mongolia
+				Tooltip: ""
+			}
+
+			LebanonItem: {
+				DisplayName: Flag of Lebanon
+				Tooltip: ""
+			}
+
+			GreenlandItem: {
+				DisplayName: Flag of Greenland
+				Tooltip: ""
+			}
+
+			MongolEmpireItem: {
+				DisplayName: Flag of the Mongol Empire
+				Tooltip: ""
+			}
+
+			AustriaHungaryItem: {
+				DisplayName: Flag of Austria-Hungary
+				Tooltip: ""
+			}
+
+			QingDynastyItem: {
+				DisplayName: Flag of the Qing Dynasty
+				Tooltip: ""
+			}
+
+			RussianEmpireItem: {
+				DisplayName: Flag of the Russian Empire
+				Tooltip: ""
+			}
+
+			HabsburgMonarchyItem: {
+				DisplayName: Flag of the Habsburg Monarchy
+				Tooltip: ""
+			}
+
+			PrussiaItem: {
+				DisplayName: Flag of Prussia
+				Tooltip: ""
+			}
+
+			CockroachItem: {
+				Tooltip: ""
+				DisplayName: Cockroach Item
+			}
+
+			Cockroach: {
+				DisplayName: Cockroach
+				Tooltip: ""
+			}
 		}
 
 		Tiles: {
@@ -512,6 +732,11 @@ Mods: {
 					Tooltip: ""
 				}
 			}
+		}
+
+		NPCs: {
+			CockroachNPC.DisplayName: Cockroach
+			Cockroach.DisplayName: Cockroach
 		}
 	}
 }

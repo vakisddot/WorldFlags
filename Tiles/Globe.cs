@@ -28,13 +28,7 @@ public class Globe : ModTile
         DustType = DustID.WoodFurniture;
 
         LocalizedText name = CreateMapEntryName();
-        // name.SetDefault("Globe");
 
         AddMapEntry(new Color(200, 200, 200), name);
-    }
-
-    public override void KillMultiTile(int i, int j, int frameX, int frameY)
-    {
-        Item.NewItem(new EntitySource_TileBreak(i, j), new Vector2(i * 16, j * 16), new Vector2(48, 48), ModContent.ItemType<Items.Globe>());
     }
 }
