@@ -81,9 +81,5 @@ v0.2
 - Added the flags of Estonia, Lithuania, Latvia, Indonesia, New Zealand, Venezuela, Ireland, Luxembourg, The Netherlands, Greece
 
 
-[h1]Upcoming flags[/h1]
-Costa Rica, Singapore, Paraguay, Nicaragua, Honduras, Andorra, European Union, Vatican City, San Marino, Ethiopa, Algeria, Pakistan, Libya, Iran, Greenland, Tunisia
-
-
 [h1]Code[/h1]
 This mod is [url=https://github.com/vakisddot/WorldFlags]open-source[/url] under the GPL-3.0 license
